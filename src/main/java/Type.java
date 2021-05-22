@@ -1,7 +1,7 @@
 public enum Type {
 
-    Boeing747(2, 100.00, "Boeing", "747"),
-    Airbus343(2, 75.00, "Airbus",  "343");
+    Boeing747(12, 100.00, "Boeing", "747"),
+    Airbus343(12, 75.00, "Airbus",  "343");
 
     private final int capacity;
     private final double weight;
