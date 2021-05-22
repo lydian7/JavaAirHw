@@ -10,4 +10,8 @@ public class CabinCrewMember extends Person{
     public String getRank() {
         return rank.getRank();
     }
+
+    public String relayMessage(){
+        return "Fasten your seatbelts";
+    }
 }
